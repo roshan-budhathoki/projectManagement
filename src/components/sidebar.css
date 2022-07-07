@@ -1,0 +1,31 @@
+.heading{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #263650;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.sideBar{
+    width: 20%;
+    height: 100%;
+    border-right: 5px solid #263650;
+}
+
+.folders{
+    width: 100%;
+    list-style: none;
+    font-weight: bold;
+}
+
+.folders li{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.folders li:hover{
+    background-color: #263650;
+    color: whitesmoke;
+}
