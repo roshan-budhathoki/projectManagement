@@ -8,7 +8,7 @@ const Tasks = () => {
     const folderId = params.folderName;
     const[tasks, setTask] = useState([]);
     const task = async() => {
-        const task = await axios.get(`http://localhost/backend/?api=folder&id=${folderId}`).then((res) => res.data.data);
+        const task = await axios.get(`https://backend.thexpresstimes.com/?api=folder&id=${folderId}`).then((res) => res.data.data);
         setTask(task);
     }
     useEffect(()=> {

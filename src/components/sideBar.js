@@ -7,7 +7,7 @@ const SideBar = () => {
     const[folders, setFolders] = useState([]);
     const[project, setProject] = useState([]);
     const projects = async() => {
-        const project  = await axios.get('http://localhost/backend/?api=project&id=1').then((res) => res.data.data);
+        const project  = await axios.get('https://backend.thexpresstimes.com/?api=project&id=1').then((res) => res.data.data);
         setFolders(project.folders);
         setProject(project.project);
     } 
